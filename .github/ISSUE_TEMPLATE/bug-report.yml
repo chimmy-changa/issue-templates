@@ -80,6 +80,7 @@ body:
       options:
         - Linux
         - Windows
+        - Windows Subsystem for Linux (WSL)
         - MacOS (Intel)
         - MacOS (Apple Silicon)
     validations:

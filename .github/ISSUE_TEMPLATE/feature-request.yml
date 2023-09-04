@@ -38,13 +38,3 @@ body:
         Any alternative solutions or features you considered, a more detailed explanation, stack traces, related issues, links for context, etc.
     validations:
       required: false
-
-  - type: input
-    id: package-version
-    attributes:
-      label: Pacakge version used
-    validations:
-      required: true
-
-# TODO: Have an additional checkbox asking if the person is able to
-#       implement a solution through a PR so that we can have some SLA with them? 
