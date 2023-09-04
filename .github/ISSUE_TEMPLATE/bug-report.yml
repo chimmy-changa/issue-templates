@@ -42,7 +42,7 @@ body:
     attributes:
       label: Reproduction Steps
       description: |
-        Provide a concise snippet of code that can be used to reproduce the issue.
+        Provide a concise list of steps that can be followed to reproduce the issue.
     validations:
       required: true
 
