@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Report a security vulnerability
-    url: https://in.mathworks.com/support/contact_us.html
-    about: Please report security vulnerabilities here.
+    url: https://github.com/mathworks/matlab-proxy/security#reporting-security-vulnerabilities
+    about: Please follow the steps mentioned here
 
 
 
