@@ -16,3 +16,5 @@ body:
 
   - type: textarea
     id: description
+    attributes:
+      label: Detials of the feature
