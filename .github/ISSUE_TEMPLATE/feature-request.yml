@@ -1,10 +1,16 @@
 # Copyright 2023 The MathWorks, Inc.
 
 name: 🚀 Feature Request
-description: Suggest an feature for this project. To report a bug or security vulnerability, return to [Create an Issue](https://github.com/mathworks/matlab-proxy/issues/issue-templates/issues/new/choose).
+description: Suggest an feature for this project. 
 title: "(short issue description)"
 labels: [feature-request, needs-triage]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        #### Note:
+        To report a bug or security vulnerability, return to [Create an Issue](https://github.com/mathworks/matlab-proxy/issues/issue-templates/issues/new/choose).
+
   - type: markdown
     attributes:
       value: |
