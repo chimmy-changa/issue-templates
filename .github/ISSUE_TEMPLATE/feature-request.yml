@@ -1,41 +1,18 @@
 # Copyright 2023 The MathWorks, Inc.
 
 name: 🚀 Feature Request
-description: Suggest an idea for this project
+description: Suggest an feature for this project. To report a bug or security vulnerability, return to [Create an Issue](https://github.com/mathworks/matlab-proxy/issues/issue-templates/issues/new/choose).
 title: "(short issue description)"
 labels: [feature-request, needs-triage]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Provide details of the feature you are proposing:
+        * A brief description 
+        * What use case or challenge would this help you overcome? For example: “Currently, it’s too time-consuming/difficult to do…” 
+        * Suggestions for implementing the request: provide a prototype, sketch, reference etc. 
+        * Any additional information: details, stack traces, related issues, links for context, etc.
+
   - type: textarea
     id: description
-    attributes:
-      label: Describe the feature
-      description: A clear and concise description of the feature you are proposing.
-    validations:
-      required: true
-
-  - type: textarea
-    id: use-case
-    attributes:
-      label: Use Case
-      description: |
-        Why do you need this feature? For example: "It's time consuming to always do..."
-    validations:
-        required: true
-
-  - type: textarea
-    id: solution
-    attributes:
-      label: Proposed Solution(optional)
-      description: |
-        Suggest how to implement the addition or change. Please include prototype/workaround/sketch/reference implementation.
-    validations:
-      required: false
-
-  - type: textarea
-    id: other
-    attributes:
-      label: Additional Information(optional)
-      description: |
-        Any alternative solutions or features you considered, a more detailed explanation, stack traces, related issues, links for context, etc.
-    validations:
-      required: false
