@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         #### Note:
-        To report a bug or security vulnerability, return to [Create an Issue](https://github.com/mathworks/matlab-proxy/issues/issue-templates/issues/new/choose).
+        To report a bug or security vulnerability, return to [Create an Issue](https://github.com/mathworks/matlab-proxy/issues/new/choose).
 
   - type: markdown
     attributes:
