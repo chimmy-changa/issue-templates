@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         #### Note:
-        Before reporting a bug, see [Issues](https://github.com/mathworks/matlab-proxy/issues) to check if an issue already exists for the bug you encountered. To request a feature or report a vulnerability, return to [Create an Issue](https://github.com/mathworks/matlab-proxy/issues/issue-templates/issues/new/choose).
+        Before reporting a bug, see [Issues](https://github.com/mathworks/matlab-proxy/issues) to check if an issue already exists for the bug you encountered. To request a feature or report a vulnerability, return to [Create an Issue](https://github.com/mathworks/matlab-proxy/issues/new/choose).
 
   - type: markdown
     attributes:
