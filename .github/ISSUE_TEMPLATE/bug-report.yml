@@ -24,15 +24,15 @@ body:
     id: bug-summary
     attributes:
       label: Summary of bug
-    validations:
-      required: true
+
+
       
   - type: input
     id: package-version
     attributes:
       label: Package version used
-    validations:
-      required: true
+
+
 
   - type: dropdown
     id: browsers
@@ -55,13 +55,12 @@ body:
         - Windows Subsystem for Linux (WSL)
         - MacOS (Intel)
         - MacOS (Apple Silicon)
-    validations:
-      required: true
+
 
   - type: textarea
     id: additional-context
     attributes:
-      label: Optional: Additional Information/Context 
+      label: (Optional) Additional Information/Context 
       description: |
         Provide any other information that might be relevant for troubleshooting this bug. Context helps us develop a solution that is most useful in the real world.
 
