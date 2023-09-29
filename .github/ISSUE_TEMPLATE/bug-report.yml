@@ -1,7 +1,8 @@
 # Copyright 2023 The MathWorks, Inc.
 
-name: "🐞 Report a Bug"
+name: "🐞 Bug Report"
 title: "[BUG]: (A short description of the bug...)"
+description: "Report a bug"
 labels: [bug, needs-triage]
 body:
   - type: markdown
