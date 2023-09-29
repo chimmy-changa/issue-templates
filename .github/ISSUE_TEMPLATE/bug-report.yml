@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         #### Note:
-        Before reporting a bug, see Issues to check if an issue already exists for the bug you encountered. To request a feature or report a vulnerability, return to [Create an Issue](https://github.com/chimmy-changa/issue-templates/issues).
+        Before reporting a bug, see [Issues](https://github.com/mathworks/matlab-proxy/issues) to check if an issue already exists for the bug you encountered. To request a feature or report a vulnerability, return to [Create an Issue](https://github.com/mathworks/matlab-proxy/issues/issue-templates/issues/new/choose).
 
   - type: markdown
     attributes:
@@ -25,20 +25,16 @@ body:
     id: bug-summary
     attributes:
       label: Summary of bug
-
-
       
   - type: input
     id: package-version
     attributes:
       label: Package version used
 
-
-
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Browser(s) used
       multiple: true
       options:
         - Chrome
@@ -49,14 +45,13 @@ body:
   - type: dropdown
     id: operating-system
     attributes:
-      label: Which operating system was the matlab-proxy executable launched from?
+      label: Operating System used to start the matlab-proxy executable
       options:
         - Linux
         - Windows
         - Windows Subsystem for Linux (WSL)
         - MacOS (Intel)
-        - MacOS (Apple Silicon)
-
+        - MacOS (Apple Silicon)        
 
   - type: textarea
     id: additional-context
@@ -81,8 +76,7 @@ body:
     id: command-output-pip-freeze
     attributes:
       label: Command-output
-    validations:
-      required: true
+
 
   - type: markdown
     attributes:
@@ -95,5 +89,3 @@ body:
     id: command-output-jupyter-server-extension
     attributes:
       label: Command-output
-    validations:
-      required: true
