@@ -81,4 +81,4 @@ body:
   - type: textarea
     id: troubleshooting-script-output
     attributes:
-      label: Script-output
+      label: Script output
