@@ -75,36 +75,8 @@ body:
          ```bash
         $ MWI_LOG_FILE="/tmp/log.file" python ./troubleshooting/troubleshooting.py
         ```
-        
-             
-  - type: markdown
-    attributes:
-      value: |
-      Output of the troubleshooting script
-      
-        
-        
-  - type: markdown
-    attributes:
-      value: |
-        ```
-        pip freeze | grep -E "jupyter|matlab-proxy|jupyter-matlab-proxy"
-        ```
-        
-  - type: textarea
-    id: command-output-pip-freeze
-    attributes:
-      label: Command-output
 
-
-  - type: markdown
-    attributes:
-      value: |
-        ```
-        jupyter serverextension list
-        ```
-        
   - type: textarea
-    id: command-output-jupyter-server-extension
+    id: troubleshooting-script-output
     attributes:
-      label: Command-output
+      label: Script-output
