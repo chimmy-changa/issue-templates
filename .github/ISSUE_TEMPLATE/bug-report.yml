@@ -64,8 +64,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Run the `troubleshooting.py` script and paste the output below. For more information, check the 
-        [troubleshooting guide](https://github.com/mathworks/matlab-proxy/tree/main/troubleshooting)
+        ## Run the `troubleshooting.py` script and paste the output below.         
+        
         ```bash
         $ python ./troubleshooting/troubleshooting.py
         ```
@@ -75,6 +75,8 @@ body:
          ```bash
         $ MWI_LOG_FILE="/tmp/log.file" python ./troubleshooting/troubleshooting.py
         ```
+        For more information, check the [troubleshooting guide](https://github.com/mathworks/matlab-proxy/tree/main/troubleshooting)
+        
 
   - type: textarea
     id: troubleshooting-script-output
