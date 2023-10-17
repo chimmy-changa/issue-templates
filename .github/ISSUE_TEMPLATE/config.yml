@@ -2,6 +2,6 @@
 
 blank_issues_enabled: true
 contact_links:
-  - name: Report a security vulnerability
+  - name: Report a Security Vulnerability
     url: https://github.com/mathworks/matlab-proxy/security/policy
-    about: Please follow the steps mentioned here
+    about: Follow these steps.
